@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-Card-Skills {
+  margin-top: 90px;
+  border: 1px solid #fff;
+}
+#titulo-skills {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container-card {
+  
+  margin-left: 105px;
+  margin-right: 105px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 400px;
+  border: #fff 1px solid;
+}
+
+.card-html,
+.card-css,
+.card-javascript,
+.card-react,
+.card-typescript {
+    background-color:  rgba(16, 44, 54, 0.3cd);
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.card-html,
+.card-css,
+.card-javascript,
+.card-react,
+.card-typescript {
+
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.card-html:hover,
+.card-css:hover,
+.card-javascript:hover,
+.card-react:hover,
+.card-typescript:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}

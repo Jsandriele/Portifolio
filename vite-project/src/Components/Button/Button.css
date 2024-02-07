@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container_button{
+    display: flex;
+    margin-top: 300px;
+    position: fixed;
+    margin-left: 30px;
+    
+}
+.button-floantig{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+   
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent ;
+}
